@@ -40,6 +40,7 @@ set(CXX_STANDARD 99)
 
 project(example)
 
+
 find_package(PkgConfig)
 
 pkg_check_modules(GTKMM gtkmm) # look into FindPkgConfig.cmake, 
